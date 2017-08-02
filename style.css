@@ -1,0 +1,26 @@
+headerH1 {
+  margin: 10em auto;
+  text-align: center;
+}
+#contactContainer {
+
+}
+
+#picContainer {}
+
+img {}
+
+nameContainer {
+  text-align: center;
+  border-bottom: solid 1.3em green;
+}
+
+.emailContainer {}
+
+.addressList {}
+
+.address1, .address2 {}
+
+.phoneContainer {}
+
+.ssnContainer {}
