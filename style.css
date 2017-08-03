@@ -1,26 +1,59 @@
-headerH1 {
-  margin: 10em auto;
+body{
+    font-family: 'Noto Serif', serif;
+    line-height: 1.8;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+h1 {
+  margin: .5rem auto;
   text-align: center;
 }
-#contactContainer {
-
+.main {
+  padding: 1.5rem;
+  display: flex;
+  flex-flow: row wrap;
+}
+.customerProfile {
+  width: 25%;
 }
 
-#picContainer {}
+/*CUSTOMER PHOTO*/
+.customerPic {
 
-img {}
-
-nameContainer {
+}
+img {
+  margin: 1rem auto;
+  width: 17rem;
+  display: flex;
+}
+/*NAME*/
+h3 {
   text-align: center;
-  border-bottom: solid 1.3em green;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-decoration-color: green;
+  text-decoration-style: solid;
 }
 
-.emailContainer {}
+/*EMAIL*/
+h4, h5 {
+  text-align: center;
+  font-weight: 300;
+}
+.customerAddress p {
+  text-align: center;
+  font-weight: 300;
+  margin-bottom: 0;
 
-.addressList {}
+}
 
-.address1, .address2 {}
+/*CUSTOMER ADDRESS*/
+.customerAddress {
 
-.phoneContainer {}
+}
 
-.ssnContainer {}
+
+/*SSN*/
+.ssn {
+  color: green;
+}
